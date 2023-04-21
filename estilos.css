@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+:root {
+    --loading-width: 160px;
+    --loading-heigth: 23px;
+}
+
+.contenedor {
+    min-height: 100%;
+    background-image: url('fiscal.avif') !important;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-size: xx-large;
+    padding: 15%;
+}
+
+button {
+    font-size: xx-large;
+    padding: 0.75em;
+}
+
+#yesBtn {
+    transform: translate(-100%, 0);
+}
+
+#noBtn {
+    position: absolute;
+}
